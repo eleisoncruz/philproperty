@@ -1,0 +1,333 @@
+/* 
+  ********************Body and general backgrounds *********************
+  */
+
+body {
+  background:url("../images/diamond.png") repeat;
+}
+.pane-block {
+  border-radius: 6px;
+  .pane-title {
+    background: #C48100;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #FFFABC;
+    padding-left: 10px;
+  }
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#page-title {
+  display: none;
+}
+
+#page {
+  background: url("../images/pagerbg.png") repeat;
+  padding-left: 10px;
+  }
+
+/*
+  *************************Header Styles *******************************
+  */
+
+.big-wrapper-header {
+  background:#800000;
+  box-shadow: 2px 10px 5px #888888;
+}
+
+.wrapper {
+  background:#800000;
+  margin: 0 auto;
+  width: $zen-grid-width;
+}
+
+#header {
+  /* background:url("../images/headerbg.png") repeat; */
+  background:#800000;
+  padding: 10px 0 10px 0;
+  a {
+    color: #fff;
+  }
+}
+
+.header__region.region.region-header{
+  width: 50%;
+  float: left;
+  position: absolute;
+  right: 0;
+}
+
+#name-and-slogan {
+  h1 {
+    display: inline;
+    a {
+      color:#fff;
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+  }
+}
+
+.block-superfish {
+  ul {
+    li {
+      list-style: none;
+      display: inline;
+      a {
+        text-decoration: none;
+        padding: 10px;
+      }
+      a:hover {
+        background: #F9A61A;
+        transition: 1s;
+      }
+    }
+  }
+}
+
+/* 
+  ************************** Slideshow *********************************
+  */
+.main-slideshow .views-field-title {
+  background:url("../images/headerbg.png") repeat;
+  width: 35%;
+  position: absolute;
+  top: 5em;
+  padding: 2em;
+  font-size: 220%;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+/*
+  **************************** Content *********************************
+  */
+
+.latest-news-td {
+  a {
+    text-decoration: none;
+  }
+  .views-field-title {
+    text-align: center;
+    width: 30%;
+    padding-left: 10px;
+  }
+  .views-field-body {
+    text-align: right;
+    padding-right: 10px;
+  }
+}
+
+.views-field-field-image {
+  padding-left: 15.5%;
+}
+
+
+#content {
+  margin-bottom: 3em;
+}
+
+.item-list {
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}
+
+.field-items {
+  img {
+    float: left;
+    display: inline;
+    border: 2px solid #888;
+    margin-right: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+.region-sidebar-second {
+  margin-top: 2em;
+  .block-views {
+    .block__title {
+      background: #C48100;
+      padding-left: 5px;
+      color: #FFFABC;
+    }
+    .view-content {
+      padding-left: 5px;
+    }
+  }
+}
+
+#banner1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background:url("../images/headerbg.png") repeat;
+  color: #fff;
+  position: absolute;
+  padding: 2em;
+}
+
+.pane-views-properties-gallery-block {
+  a {
+    text-decoration: none;
+    color: #800000;
+    font-weight: bold;
+  }
+  img {
+    margin: 0 2em 0 0;
+    border: 4px solid #888;
+  }
+  .views-field-field-tags {
+    margin-bottom: 4em;
+  }
+}
+
+.buy-banner-title {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background:url("../images/headerbg.png") repeat;
+  position: absolute;
+  top: 1em;
+  padding: 2em;
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+
+.promo-image {
+  img { 
+    margin: 0 0 0 -1.80em;
+    border: 4px solid #888;
+  }
+}
+
+.promos-title {
+  text-align: center;
+  margin-right: -10%;
+   a {
+    text-decoration: none;
+  }
+}
+
+.promos-body {
+  color: #800000;
+  text-align: center;
+}
+
+.latest-news-td {
+  a {
+    color: #800000;
+  }
+}
+
+.buying-properties-sidebar-title {
+  background: #c48100;
+  font-family: 'Open Sans Condensed', sans-serif;
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: .5em;
+  }
+}
+
+.view-ads-block {
+  border: 1px solid #888;
+}
+
+.adds-slides {
+  padding: 10px;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.ad-title {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background:url("../images/headerbg.png") repeat;
+  position: absolute;
+  top: 6.5em;
+  padding: .5em;
+}
+
+.properties-node-block {
+  border: 1px solid #888;
+  padding: 0 6px 10px 6px;
+  margin-top: 4em;
+  h2 {
+    font-size: 200%;
+  }
+}
+
+.most-reads {
+  p {
+    border-bottom: 1px solid gray;
+    padding-bottom: 4em;
+    img {
+      padding-right: 1em;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      color: #C48100;
+    }
+  }
+}
+
+.govt-banks {
+  p {
+    border-bottom: 1px solid #888;
+    padding-bottom: 6em;
+    img {
+      padding-right: 1em;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      color: #C48100;
+    }
+  }
+}
+
+/*
+  *************************** Footer ***********************************
+  */
+#footer {
+  background: #800000;
+  color: #fff;
+  h2 {
+    text-align: center;
+  }
+  .field-content {
+    border-right: 1px solid #888;
+  }
+}
+
+.footer-header {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+}
+
+.field-content.copyright {
+  font-weight: bold;
+}
+
+.easy_social_box {
+  padding-left: 25%;
+}
+
+.for-footer {
+  background: #800000;
+  box-shadow: 0px -7px 10px 5px #888888;
+}
